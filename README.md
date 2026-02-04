@@ -1,13 +1,4 @@
-# WordPress Snippets & Mini Projects
-
-🎨 Gallery Shortcode  
-A custom shortcode for creating image galleries with lightbox.
-
-📑 Custom Post Type Snippet  
-PHP code for registering a new CPT (Projects).
-
-🚀 Minimal Theme  
-A lightweight WP theme for a web site.
+# PHP Fullstack Apps
 
 ---
 
@@ -33,9 +24,9 @@ A lightweight WP theme for a web site.
 
 ## /templates
 
-| Projects         | Stack          | Discription              |
-| ---------------- | -------------- | ------------------------ |
-| **php-template** | PHP, SQL, JS   | Simple template php-app. |
+| Projects         | Stack        | Discription              |
+| ---------------- | ------------ | ------------------------ |
+| **php-template** | PHP, SQL, JS | Simple template php-app. |
 
 ## /themes
 
