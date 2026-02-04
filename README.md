@@ -1,10 +1,55 @@
-# Beauty Salon | PHP App
+# WordPress Snippets & Mini Projects
 
-![Beauty Salon_1](./assets/screenshots/screenshot_1.jpg)
-![Beauty Salon_2](./assets/screenshots/screenshot_2.jpg)
-![Beauty Salon_3](./assets/screenshots/screenshot_3.jpg)
+🎨 Gallery Shortcode  
+A custom shortcode for creating image galleries with lightbox.
 
-[Design](https://www.figma.com/design/yUBTU3YSEETOeeHubgtoBS/%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B?node-id=1-656&t=l98qR9PPTmpH9UVy-1)
+📑 Custom Post Type Snippet  
+PHP code for registering a new CPT (Projects).
+
+🚀 Minimal Theme  
+A lightweight WP theme for a web site.
+
+---
+
+## Tech Stack
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" width="40" height="40" alt="Wordpress" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" alt="PHP" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySql" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" alt="CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" alt="JS" />
+</p>
+
+---
+
+# Projects
+
+## /apps
+
+| Projects             | Stack        | Discription               |
+| -------------------- | ------------ | ------------------------- |
+| **beauty-salon-app** | PHP, SQL, JS | Web-app for beauty salon. |
+
+## /templates
+
+| Projects         | Stack          | Discription              |
+| ---------------- | -------------- | ------------------------ |
+| **php-template** | PHP, SQL, JS   | Simple template php-app. |
+
+## /themes
+
+| Projects                | Stack          | Discription                                                                     |
+| ----------------------- | -------------- | ------------------------------------------------------------------------------- |
+| **beautysalon**         | Wordpress, PHP | A beauty salon website, some of the functionality is implemented using plugins. |
+| **carservice-repair**   | Wordpress, PHP | Auto repair shop landing page.                                                  |
+| **luxurycar-detailing** | Wordpress, PHP | Car detailing landing page.                                                     |
+| **rentcarcatalog**      | Wordpress, PHP | Car rental website.                                                             |
+| **skyplazayalta**       | Wordpress, PHP | Hotel website using ASF.                                                        |
+| **wishbone-portfolio**  | Wordpress, PHP | Landing page for an architectural company.                                      |
+| **travel-theme**        | Wordpress, PHP | Website of travel agency.                                                       |
+
+---
 
 # Run Server
 
@@ -12,38 +57,4 @@
 php -S localhost:8000
 ```
 
----
-
-## Tech Stack
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" alt="PHP" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySql" />
-</p>
-
----
-
-## Project Structure
-
-```
-website/
-├── index.php
-├── config.php
-├── includes/
-│   ├── header.php
-│   ├── footer.php
-│   └── functions.php
-├── pages/
-│   ├── home.php
-│   ├── about.php
-│   └── contact.php
-├── data/
-│   └── projects.json
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── images/
-└── .htaccess
-```
+**Open page**:`http://localhost:8000`
