@@ -1,6 +1,6 @@
 # Car service website
 
-![Car service](../../assets/screenshots/carservice.jpg)
+![Car service](./assets/img/screenshot.png)
 
 Adaptive lending for a car service, laid out using a design layout from Figma.
 

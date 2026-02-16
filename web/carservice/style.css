@@ -82,7 +82,7 @@ p {
 /* Hero section */
 
 .hero {
-  background: url("./img/hero.png") no-repeat center center;
+  background: url("./assets/img/hero.png") no-repeat center center;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -289,7 +289,7 @@ p {
 /* Reapir */
 
 .repair {
-  background-image: url("./img/repair.jpg");
+  background-image: url("./assets/img/repair.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -630,7 +630,6 @@ p {
 /* Mobile */
 
 @media (max-width: 768px) {
-
   /* Header */
   .container {
     flex-direction: column;
