@@ -1,8 +1,8 @@
 # HTML-CSS-JS Projects
 
--[Spanish](./README_es.md) -[Russian](./README_ru.md)
+-[Spanish](./README_es.md) -[English](./README.md)
 
-A collection of my layout projects, as well as some of my work transferred to Wordpress.
+Коллекция моих проектов по верстке, также часть работ перенесенных на Wordpress.
 
 ---
 
