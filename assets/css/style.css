@@ -1,9 +1,12 @@
+@import "./services.css";
+
 /* === RESET & BASE background: #111; === */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
@@ -12,14 +15,17 @@ body {
   background: white;
   scroll-behavior: smooth;
 }
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: inherit;
   color: black;
 }
+
 .container {
   width: 90%;
   max-width: 1400px;
@@ -249,6 +255,7 @@ p {
   margin-bottom: 20px;
   justify-content: center;
 }
+
 .filter-btn {
   padding: 8px 16px;
   border: none;
@@ -257,15 +264,18 @@ p {
   border-radius: 6px;
   transition: 0.3s;
 }
+
 .filter-btn.active,
 .filter-btn:hover {
   background: #2e8791;
   color: #fff;
 }
+
 .project-card {
   display: block;
   transition: 0.3s;
 }
+
 .project-card.hide {
   display: none;
 }
@@ -468,12 +478,15 @@ textarea {
   h2 {
     font-size: 28px;
   }
+
   p {
     font-size: 16px;
   }
+
   .projects-grid {
     gap: 20px;
   }
+
   .services-content {
     gap: 30px;
   }
@@ -487,20 +500,25 @@ textarea {
     display: flex;
     text-align: center;
   }
+
   .services-content {
     flex-direction: column;
     align-items: center;
   }
+
   .services-image,
   .services-list {
     flex: 1 1 100%;
   }
+
   .service-text h3 {
     font-size: 20px;
   }
+
   .service-text p {
     font-size: 16px;
   }
+
   .service-price {
     font-size: 16px;
   }
@@ -511,50 +529,64 @@ textarea {
   .logo a {
     font-size: 1.2rem;
   }
+
   h2 {
     font-size: 24px;
   }
+
   p {
     font-size: 14px;
   }
+
   .projects {
     padding: 40px 10px;
   }
+
   .projects-title {
     font-size: 22px;
   }
+
   .filter-buttons {
     flex-wrap: wrap;
     gap: 8px;
   }
+
   .filter-btn {
     padding: 6px 12px;
     font-size: 14px;
   }
+
   .project-content {
     padding: 15px;
   }
+
   .project-content h3 {
     font-size: 16px;
   }
+
   .project-content p {
     font-size: 13px;
   }
+
   .tags span {
     font-size: 11px;
     padding: 4px 8px;
   }
+
   .contact-grid {
     flex-direction: column;
     gap: 20px;
   }
+
   .contact-form,
   .contact-info {
     flex: 1 1 100%;
   }
+
   .services-title {
     font-size: 24px;
   }
+
   .service-subtitle {
     font-size: 18px;
   }
@@ -565,23 +597,29 @@ textarea {
   h2 {
     font-size: 20px;
   }
+
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 15px;
   }
+
   .project-content h3 {
     font-size: 14px;
   }
+
   .project-content p {
     font-size: 12px;
   }
+
   .links {
     flex-direction: column;
     gap: 10px;
   }
+
   .links a {
     font-size: 12px;
   }
+
   .footer .socials {
     gap: 15px;
   }
@@ -593,19 +631,24 @@ textarea {
     flex-direction: column;
     align-items: stretch;
   }
+
   .filter-btn {
     width: 100%;
     text-align: center;
   }
+
   .project-content {
     padding: 10px;
   }
+
   .service-text h3 {
     font-size: 18px;
   }
+
   .service-text p {
     font-size: 14px;
   }
+
   .service-price {
     font-size: 14px;
   }
